@@ -19,6 +19,10 @@ import Cta from "./components/Cta";
 import Footer from "./components/Footer";
 
 const App = () => {
+  Aos.init({
+    duration: 1800,
+    offset: 100,
+  })
   return (
     <div>
       <Header/>
@@ -33,7 +37,7 @@ const App = () => {
       <Testimonials/>
       <Cta/>
       <Footer/>
-      
+    <div className="h-[4000px]"></div>
     </div>
   )
 }
