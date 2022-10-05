@@ -105,7 +105,7 @@ export const features = {
 };
 
 export const product = {
-  title: "The Product we work with.",
+  title: "The Products we work with.",
   subtitle:
     "Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.",
   cards: [
