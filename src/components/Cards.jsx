@@ -13,7 +13,7 @@ const Cards = () => {
         {cards.map((card, cardIndex) => {
           const { icon, subtitle, title, delay } = card;
           return (
-            <div key={cardIndex} data-aos="zoom-out" data-aos-offset='300' data-aos-delay= 'delay'>
+            <div key={cardIndex} data-aos="zoom-out" data-aos-offset='300' data-aos-delay= {delay}>
               <div
                 onClick={() => setIndex(cardIndex)}
                 className={`${
